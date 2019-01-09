@@ -1,0 +1,27 @@
+# Puppet-Multi_Command_Module
+
+A small Custom Module which is used to run multile linux commands easily . It uses exec type as backend.
+
+One can execute linux commands with above custom module easily.
+
+
+Usage:
+
+1. Copy the exec module init.pp file to the module directory of the puppetmaster or puppet agent
+
+2. Call the custom Module as below to execute mulitple commands
+
+3. We can use this module as a terminal as below
+
+4. Copy below code in site.pp file in puppetmaster/agent to execute the command on local/remote machines easily :-)
+
+
+                  ###################USAGE##############
+
+                     exec::multi { 'Running multiple Linux Command':
+                               commands => ["mkdir test1;mkdir test2","uptime","netstat","ping -c 2 <hostname/ip>"],
+                                 }
+
+
+                  ###################USAGE##############
+

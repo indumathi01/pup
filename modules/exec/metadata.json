@@ -1,0 +1,23 @@
+{
+  "name": "madhukarn-exec",
+  "version": "0.1.0",
+  "source": "https://github.com/madhu2852/Puppet-Multi_Command_Module.git",
+  "author": "madhukarn",
+  "license": "Apache License, Version 2.0",
+  "summary": "Multiple Linux commands can be exxecuted with the module very easily.",
+  "description": "Execute Multiple Linux Commands easily ",
+  "project_page": "UNKNOWN",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "Modulefile": "edcec649d5d762e21005c769df96bf28",
+    "README": "931feb9def3eda5c2a4cd4af6e343105",
+    "manifests/init.pp": "b7cd22fa0abb578da2173c24e48ba139",
+    "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
+    "tests/init.pp": "f3aba3f034df3c170b81f7bd58885c48"
+  }
+}
